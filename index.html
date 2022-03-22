@@ -9,12 +9,70 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <script defer src="index.js"></script>
     <title>Frontend Mentor | Easybank landing page</title>
-    >
   </head>
-  <body>
+  <body class="container">
+    <main class="main">
+      <nav class="nav">
+        <img src="images/logo.svg" alt="easybank logo" class="nav__logo" />
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Home</a>
+            <div class="nav__underline"></div>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">About</a>
+            <div class="nav__underline"></div>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Contact</a>
+            <div class="nav__underline"></div>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Blog</a>
+            <div class="nav__underline"></div>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Careers</a>
+            <div class="nav__underline"></div>
+          </li>
+        </ul>
+
+        <a href="#" class="btn btn__nav">Request Invite</a>
+      </nav>
+
+      <header class="header">
+        <div class="header-wrapper">
+          <h1 class="header__heading">Next generation digital banking</h1>
+          <p class="header__desc">
+            Take your financial life online. Your Easybank account will be a
+            one-stop-shop for spending, saving, budgeting, investing, and much
+            more.
+          </p>
+          <a href="#" class="btn header__btn">Request invite</a>
+        </div>
+
+        <img
+          src="images/image-mockups.png"
+          alt="four phones displaying dollar amounts"
+          class="header__image"
+        />
+      </header>
+
+      <section class="section-about"></section>
+
+      <section class="section-articles"></section>
+    </main>
+
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
