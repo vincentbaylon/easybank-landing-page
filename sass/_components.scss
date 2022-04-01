@@ -31,7 +31,7 @@
   }
 
   &__underline {
-    border-bottom: 3px solid transparent;
+    border-bottom: 2px solid transparent;
     transform: translateY(1.1rem);
     transition: all 0.2s;
     width: 100%;
@@ -54,7 +54,7 @@
   background-repeat: no-repeat;
   background-size: 90%;
   // background-attachment: fixed;
-  background-position: 35rem -15rem;
+  background-position: 36rem -15rem;
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -148,6 +148,61 @@
     color: $clr-gray-blue;
     font-size: 0.85rem;
     font-weight: 300;
+  }
+}
+
+// SECTION ARTICLES
+.section-articles {
+  background-color: $clr-light-gray-blue;
+  z-index: 100;
+  padding-bottom: 4rem;
+  margin-top: 3rem;
+  padding: 0 6rem;
+
+  &__heading {
+    font-size: 1.7rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+
+    &-heading {
+      font-size: 0.9rem;
+      color: $clr-primary-dark;
+      font-weight: 300;
+      line-height: 1;
+    }
+  }
+
+  &__author {
+    font-size: 0.5rem;
+    color: $clr-gray-blue;
+  }
+
+  &__text {
+    padding: 2rem 3rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__desc {
+    font-size: 0.6rem;
+    color: $clr-gray-blue;
+  }
+
+  &__image {
+    width: 15rem;
+    height: 11rem;
+    border-radius: 0.3rem 0.3rem 0 0;
+  }
+
+  &__wrapper {
+    display: flex;
+    gap: 1rem;
   }
 }
 
